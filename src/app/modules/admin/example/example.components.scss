@@ -1,0 +1,73 @@
+.cont {
+    width: 100%;
+}
+table {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.btnaction {
+    display: flex;
+}
+button {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    background-color: rgb(51, 6, 249);
+    color: aliceblue;
+    padding: 6px 20px 6px 20px;
+    margin-left: 8px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+.main-example {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+
+    padding: 15px 0px 15px 10px;
+}
+
+label,
+input,
+label {
+    margin-bottom: 4px;
+    width: 60%;
+}
+
+label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+a {
+    position: absolute;
+    font-size: 8px;
+    bottom: 4px;
+    right: 4px;
+    text-decoration: none;
+    color: black;
+    background: yellow;
+    border-radius: 10px;
+    padding: 2px;
+}
