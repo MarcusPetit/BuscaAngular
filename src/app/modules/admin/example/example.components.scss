@@ -13,10 +13,25 @@ button {
     display: flex;
     justify-content: space-around;
     gap: 5px;
-    background-color: rgb(51, 6, 249);
+    background-color: rgb(96, 47, 245);
     color: aliceblue;
     padding: 6px 20px 6px 20px;
     margin-left: 8px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.mat-icon {
+    color: rgb(96, 47, 245);
+}
+.btnform {
+    color: rgb(96, 47, 245);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    font-weight: 700;
+    padding: 6px 20px 6px 20px;
+    margin-left: 20px;
     border-radius: 10px;
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     transition: 0.5s;
@@ -27,6 +42,7 @@ button {
 
 form {
     width: 100%;
+    display: flex;
 
     padding: 15px 0px 15px 10px;
 }

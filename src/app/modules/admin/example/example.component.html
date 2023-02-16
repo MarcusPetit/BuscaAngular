@@ -8,6 +8,10 @@
                     name="searchTerm"
                     placeholder="Busque por Id ou Nome"
                 />
+                <button class="btnform" type="submit">
+                    <mat-icon class="icons">search</mat-icon>
+                    Pesquisar
+                </button>
             </form>
 
             <table mat-table [dataSource]="fontes | filter : searchTerm">
